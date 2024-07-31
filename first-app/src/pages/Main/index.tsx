@@ -1,9 +1,11 @@
 import './styles.css';
+import Counter from '../../components/counter';
 
 function Main() {
   return (
     <div className="container-main">
-      <h1>Hello World</h1>
+      <Counter title='Contador 1'/>
+      <Counter title='Contador 2'/>
     </div>
   );
 }

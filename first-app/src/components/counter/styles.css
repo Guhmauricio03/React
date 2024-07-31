@@ -1,0 +1,22 @@
+.container-counter{
+    display: flex; 
+    flex-direction: column;
+    border: 2px solid gray;
+    width: 250px;
+    padding: 16px;
+    height: 300px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px;
+}
+
+.content-counter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-counter button {
+    height: 48px;
+    width: 100%;
+}
